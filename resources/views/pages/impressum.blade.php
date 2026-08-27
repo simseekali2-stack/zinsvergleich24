@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Impressum - FestgeldFinder24')
-@section('meta_description', 'Rechtliche Informationen und Anbieterkennzeichnung gemäß § 5 DDG für FestgeldFinder24 (L&P Kapitalverwaltungs GmbH).')
+@section('title', 'Impressum - ' . config('app.name', 'ZinsVergleich24'))
+@section('meta_description', 'Rechtliche Informationen und Anbieterkennzeichnung gemäß § 5 DDG.')
 
 @section('content')
 
@@ -12,7 +12,7 @@
         </span>
         <h1 class="text-3xl sm:text-4xl font-black">Impressum</h1>
         <p class="text-slate-300 text-sm leading-relaxed">
-            Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG) und Aufsichtsbehörden-Registrierung.
+            Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG) und § 18 MStV.
         </p>
     </div>
 </div>
@@ -22,49 +22,40 @@
         
         <div class="bg-white p-8 sm:p-12 rounded-2xl border border-slate-200 shadow-xl space-y-8 text-slate-800 leading-relaxed">
             
-            <!-- Company & Address -->
+            <!-- Provider & Address -->
             <div>
-                <h2 class="text-xl font-bold text-slate-900 border-b border-slate-200 pb-2 mb-4">
+                <h2 class="text-xl font-bold text-slate-900 border-b border-slate-200 pb-2 mb-4 flex items-center">
+                    <svg class="w-5 h-5 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
                     Anbieter der Website
                 </h2>
                 <div class="space-y-1 text-base">
-                    <p class="font-black text-slate-900 text-lg">L&P Kapitalverwaltungs GmbH</p>
-                    <p>Grosse Bleichen 34</p>
-                    <p>20354 Hamburg</p>
-                    <p>Deutschland</p>
+                    <p class="font-black text-slate-900 text-xl">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
+                    <p class="text-slate-700">Ortsstr. 42</p>
+                    <p class="text-slate-700">07426 Allendorf</p>
+                    <p class="text-slate-700 font-semibold">Deutschland</p>
                 </div>
             </div>
 
-            <!-- Regulatory & BaFin Numbers -->
-            <div class="p-6 bg-slate-900 text-white rounded-xl border border-slate-800 space-y-4">
-                <h2 class="text-base font-bold text-amber-400 uppercase tracking-wider flex items-center">
-                    <svg class="w-5 h-5 text-amber-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                    Aufsichtsbehörde & Registrierung
-                </h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
-                    <div class="bg-slate-800/80 p-4 rounded-lg border border-slate-700">
-                        <span class="text-xs text-slate-400 block mb-1">Bundesanstalt für Finanzdienstleistungsaufsicht</span>
-                        <span class="font-extrabold text-emerald-400 text-base">BaFin-ID: 10161369</span>
-                    </div>
-                    <div class="bg-slate-800/80 p-4 rounded-lg border border-slate-700">
-                        <span class="text-xs text-slate-400 block mb-1">Registrierungs-Nummer</span>
-                        <span class="font-extrabold text-amber-400 text-base">Bak Nr.: 161369</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Vertretungsberechtigte & Kontakt -->
+            <!-- Representative & Contact -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-slate-200">
-                <div>
-                    <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2">Vertreten durch</h3>
-                    <p class="text-sm text-slate-700">Geschäftsführung der L&P Kapitalverwaltungs GmbH</p>
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                    <h3 class="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">Vertreten durch</h3>
+                    <p class="text-base font-bold text-slate-900">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
                 </div>
 
-                <div>
-                    <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2">Kontakt</h3>
-                    <p class="text-sm text-slate-700">E-Mail: kontakt@festgeldfinder24.de</p>
-                    <p class="text-sm text-slate-700">Web: www.festgeldfinder24.de</p>
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                    <h3 class="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">Kontakt</h3>
+                    <p class="text-sm font-semibold text-slate-800">E-Mail: <a href="{{ route('kontakt') }}" class="text-indigo-600 hover:underline">über Kontaktformular</a></p>
+                    <p class="text-sm font-semibold text-slate-800">Web: <a href="{{ url('/') }}" class="text-indigo-600 hover:underline">{{ request()->getHost() }}</a></p>
                 </div>
+            </div>
+
+            <!-- Content Responsibility -->
+            <div class="p-6 bg-slate-900 text-white rounded-xl border border-slate-800 space-y-2">
+                <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+                <p class="text-base font-bold text-white">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
+                <p class="text-sm text-slate-300">Ortsstr. 42</p>
+                <p class="text-sm text-slate-300">07426 Allendorf, Deutschland</p>
             </div>
 
             <!-- Legal Disclaimers -->
@@ -94,8 +85,8 @@
                     <h3 class="font-bold text-slate-900 text-sm mb-1">EU-Streitschlichtung</h3>
                     <p>
                         Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
-                        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" class="text-emerald-700 underline">https://ec.europa.eu/consumers/odr</a>. 
-                        Unsere E-Mail-Adresse finden Sie oben im Impressum.
+                        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" class="text-indigo-600 underline">https://ec.europa.eu/consumers/odr</a>. 
+                        Unsere E-Mail-Adresse finden Sie im Kontaktabschnitt dieses Impressums.
                     </p>
                 </div>
             </div>

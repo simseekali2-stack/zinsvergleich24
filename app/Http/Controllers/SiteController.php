@@ -51,4 +51,21 @@ class SiteController extends Controller
     {
         return view('pages.datenschutz');
     }
+
+    public function kontakt()
+    {
+        return view('pages.kontakt');
+    }
+
+    public function kontaktSubmit(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'subject' => 'required|string|max:255',
+            'message' => 'required|string|max:5000',
+        ]);
+
+        return back()->with('success', 'Ihre Nachricht wurde erfolgreich gesendet.');
+    }
 }

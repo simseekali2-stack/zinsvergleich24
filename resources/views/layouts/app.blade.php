@@ -55,7 +55,9 @@
             <div class="flex items-center space-x-3 text-[11px]">
                 <a href="{{ route('news.index') }}" class="hover:text-white transition-colors">Nachrichten-Archiv</a>
                 <span class="text-slate-700">•</span>
-                <a href="{{ route('impressum') }}" class="text-cyan-400 hover:text-cyan-300 font-bold underline transition-colors">Impressum (L&P GmbH)</a>
+                <a href="{{ route('kontakt') }}" class="hover:text-white transition-colors">Kontakt</a>
+                <span class="text-slate-700">•</span>
+                <a href="{{ route('impressum') }}" class="text-cyan-400 hover:text-cyan-300 font-bold underline transition-colors">Impressum</a>
             </div>
         </div>
     </div>
@@ -133,7 +135,10 @@
                     <a href="{{ route('news.index', ['category' => 'Immobilien & Zinsen']) }}" class="px-3 py-2 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition-colors">
                         Immobilien & Zinsen
                     </a>
-                    <a href="{{ route('impressum') }}" class="px-3 py-2 rounded hover:bg-slate-800 text-cyan-400 hover:text-cyan-300 transition-colors">
+                    <a href="{{ route('kontakt') }}" class="px-3 py-2 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition-colors {{ request()->routeIs('kontakt') ? 'bg-blue-700 text-white' : '' }}">
+                        Kontakt
+                    </a>
+                    <a href="{{ route('impressum') }}" class="px-3 py-2 rounded hover:bg-slate-800 text-cyan-400 hover:text-cyan-300 transition-colors {{ request()->routeIs('impressum') ? 'bg-blue-700 text-white' : '' }}">
                         Impressum
                     </a>
                 </nav>
@@ -145,7 +150,8 @@
             <a href="{{ route('news.index', ['category' => 'Politik & EZB']) }}" class="block px-3 py-2 rounded text-sm font-medium text-slate-200">Politik & EZB</a>
             <a href="{{ route('news.index', ['category' => 'Wirtschaft & Konjunktur']) }}" class="block px-3 py-2 rounded text-sm font-medium text-slate-200">Wirtschaft & Konjunktur</a>
             <a href="{{ route('news.index', ['category' => 'Börse & Märkte']) }}" class="block px-3 py-2 rounded text-sm font-medium text-slate-200">Börse & Märkte</a>
-            <a href="{{ route('impressum') }}" class="block px-3 py-2 rounded text-sm font-bold text-cyan-400 bg-slate-800/80">Impressum Angaben (L&P GmbH)</a>
+            <a href="{{ route('kontakt') }}" class="block px-3 py-2 rounded text-sm font-medium text-slate-200">Kontakt</a>
+            <a href="{{ route('impressum') }}" class="block px-3 py-2 rounded text-sm font-bold text-cyan-400 bg-slate-800/80">Impressum</a>
         </div>
     </header>
 
@@ -162,7 +168,7 @@
                         @include('partials.logo')
                     </div>
                     <p class="text-slate-400 leading-relaxed text-xs font-serif">
-                        ZinsVergleich24 ist das unabhängige Finanzmedien-Portal der L&P Kapitalverwaltungs GmbH.
+                        Unabhängiges Finanzmedien-Portal für Zinsvergleiche, Märkte und Geldanlage.
                     </p>
                 </div>
                 <div>
@@ -178,20 +184,24 @@
                     <ul class="space-y-2">
                         <li><a href="{{ route('news.index', ['category' => 'Politik & EZB']) }}" class="hover:text-cyan-400">EZB Leitzins-Entscheidungen</a></li>
                         <li><a href="{{ route('news.index', ['category' => 'Immobilien & Zinsen']) }}" class="hover:text-cyan-400">Bauzinsen & Markt</a></li>
+                        <li><a href="{{ route('kontakt') }}" class="hover:text-cyan-400">Kontakt & Anfragen</a></li>
                     </ul>
                 </div>
                 <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
                     <h4 class="text-xs font-bold text-white uppercase tracking-wider text-cyan-400">Impressum Angaben</h4>
-                    <p class="font-bold text-slate-200">L&P Kapitalverwaltungs GmbH</p>
-                    <p>Grosse Bleichen 34, 20354 Hamburg</p>
-                    <p class="pt-1 text-slate-400"><strong>BaFin-ID:</strong> 10161369</p>
-                    <p class="text-slate-400"><strong>Bak Nr.:</strong> 161369</p>
-                    <a href="{{ route('impressum') }}" class="inline-block mt-2 text-cyan-400 font-bold hover:underline">Vollständiges Impressum &rarr;</a>
+                    <p class="font-bold text-slate-200">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
+                    <p>Ortsstr. 42, 07426 Allendorf</p>
+                    <p class="text-slate-400">Deutschland</p>
+                    <div class="pt-2 space-x-2">
+                        <a href="{{ route('impressum') }}" class="inline-block text-cyan-400 font-bold hover:underline">Impressum &rarr;</a>
+                        <a href="{{ route('kontakt') }}" class="inline-block text-indigo-400 font-bold hover:underline">Kontakt &rarr;</a>
+                    </div>
                 </div>
             </div>
             <div class="border-t border-slate-900 pt-6 text-center text-slate-400 text-[11px] flex flex-col md:flex-row justify-between items-center">
-                <p>&copy; 2026 ZinsVergleich24. Alle Rechte vorbehalten. Herausgegeben von L&P Kapitalverwaltungs GmbH.</p>
+                <p>&copy; 2026 {{ config('app.name', 'ZinsVergleich24') }}. Alle Rechte vorbehalten. Inhaber: Oskar Ehrenfried Heinrich.</p>
                 <div class="space-x-4">
+                    <a href="{{ route('kontakt') }}" class="hover:text-white">Kontakt</a>
                     <a href="{{ route('impressum') }}" class="hover:text-white">Impressum</a>
                     <a href="{{ route('datenschutz') }}" class="hover:text-white">Datenschutz</a>
                 </div>
