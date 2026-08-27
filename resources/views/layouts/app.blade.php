@@ -189,7 +189,8 @@
                 </div>
                 <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
                     <h4 class="text-xs font-bold text-white uppercase tracking-wider text-cyan-400">Impressum Angaben</h4>
-                    <p class="font-bold text-slate-200">L&P Kapitalverwaltungs GmbH</p>
+                    <p class="font-bold text-slate-200">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
+                    <p class="text-xs text-slate-300 font-semibold">L&P Kapitalverwaltungs GmbH</p>
                     <p>Grosse Bleichen 34, 20354 Hamburg</p>
                     <p class="text-slate-400 text-xs">BaFin-ID: 10161369 | Bak Nr.: 161369</p>
                     <div class="pt-2 space-x-2">

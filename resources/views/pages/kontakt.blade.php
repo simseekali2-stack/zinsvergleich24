@@ -47,7 +47,8 @@
                         </div>
                         <div>
                             <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Anschrift</h3>
-                            <p class="font-bold text-slate-900 text-sm mt-1">L&P Kapitalverwaltungs GmbH</p>
+                            <p class="font-bold text-slate-900 text-sm mt-1">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
+                            <p class="text-xs text-slate-700 font-semibold">L&P Kapitalverwaltungs GmbH</p>
                             <p class="text-xs text-slate-600">Grosse Bleichen 34</p>
                             <p class="text-xs text-slate-600">20354 Hamburg</p>
                             <p class="text-xs text-slate-600 font-semibold">Deutschland</p>
