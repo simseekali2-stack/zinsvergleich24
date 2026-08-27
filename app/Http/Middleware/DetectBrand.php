@@ -17,7 +17,7 @@ class DetectBrand
     public function handle(Request $request, Closure $next): Response
     {
         $brands = config('brands');
-        $activeBrand = $brands['festgeldfinder24'];
+        $activeBrand = reset($brands);
 
         config(['app.active_brand' => $activeBrand]);
         View::share('activeBrand', $activeBrand);
