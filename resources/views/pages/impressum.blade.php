@@ -37,10 +37,16 @@
             </div>
 
             <!-- Representative & Contact -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-slate-200">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4 border-t border-slate-200">
                 <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
                     <h3 class="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">Vertreten durch</h3>
                     <p class="text-base font-bold text-slate-900">L&P Kapitalverwaltungs GmbH</p>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                    <h3 class="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">Registrierung</h3>
+                    <p class="text-sm font-bold text-slate-900">BaFin-ID: 10161369</p>
+                    <p class="text-sm font-bold text-slate-900">Bak Nr.: 161369</p>
                 </div>
 
                 <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">

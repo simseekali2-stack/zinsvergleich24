@@ -51,6 +51,7 @@
                             <p class="text-xs text-slate-600">Grosse Bleichen 34</p>
                             <p class="text-xs text-slate-600">20354 Hamburg</p>
                             <p class="text-xs text-slate-600 font-semibold">Deutschland</p>
+                            <p class="text-xs text-slate-500 font-medium mt-1">BaFin-ID: 10161369 | Bak Nr.: 161369</p>
                         </div>
                     </div>
 

@@ -191,7 +191,7 @@
                     <h4 class="text-xs font-bold text-white uppercase tracking-wider text-cyan-400">Impressum Angaben</h4>
                     <p class="font-bold text-slate-200">L&P Kapitalverwaltungs GmbH</p>
                     <p>Grosse Bleichen 34, 20354 Hamburg</p>
-                    <p class="text-slate-400">Deutschland</p>
+                    <p class="text-slate-400 text-xs">BaFin-ID: 10161369 | Bak Nr.: 161369</p>
                     <div class="pt-2 space-x-2">
                         <a href="{{ route('impressum') }}" class="inline-block text-cyan-400 font-bold hover:underline">Impressum &rarr;</a>
                         <a href="{{ route('kontakt') }}" class="inline-block text-indigo-400 font-bold hover:underline">Kontakt &rarr;</a>
