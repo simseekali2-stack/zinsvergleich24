@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#064E3B" />
+  <circle cx="400" cy="225" r="140" fill="#047857" stroke="#34D399" stroke-width="4"/>
+  <text x="400" y="200" font-family="sans-serif" font-size="20" font-weight="bold" fill="#D1FAE5" text-anchor="middle">TESTSIEGER 2026</text>
+  <text x="400" y="250" font-family="sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">TOP 5</text>
+  <text x="400" y="285" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FESTGELD ANGEBOTE</text>
+</svg>

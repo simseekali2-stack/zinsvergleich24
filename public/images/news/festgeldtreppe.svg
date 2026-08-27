@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgTreppe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022C22" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgTreppe)" />
+
+  <rect x="100" y="300" width="160" height="100" rx="8" fill="#047857" stroke="#34D399" stroke-width="2" />
+  <text x="180" y="340" font-family="sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1 Jahr</text>
+  <text x="180" y="370" font-family="sans-serif" font-size="18" font-weight="extrabold" fill="#F59E0B" text-anchor="middle">3,85 %</text>
+
+  <rect x="320" y="220" width="160" height="180" rx="8" fill="#059669" stroke="#34D399" stroke-width="2" />
+  <text x="400" y="260" font-family="sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2 Jahre</text>
+  <text x="400" y="290" font-family="sans-serif" font-size="18" font-weight="extrabold" fill="#F59E0B" text-anchor="middle">3,95 %</text>
+
+  <rect x="540" y="140" width="160" height="260" rx="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2" />
+  <text x="620" y="180" font-family="sans-serif" font-size="16" font-weight="bold" fill="#064E3B" text-anchor="middle">3 Jahre</text>
+  <text x="620" y="210" font-family="sans-serif" font-size="20" font-weight="900" fill="#064E3B" text-anchor="middle">4,10 %</text>
+
+  <text x="400" y="60" font-family="sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">STRATEGIE: DIE FESTGELDTREPPE</text>
+</svg>
