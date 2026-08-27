@@ -189,8 +189,8 @@
                 </div>
                 <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
                     <h4 class="text-xs font-bold text-white uppercase tracking-wider text-cyan-400">Impressum Angaben</h4>
-                    <p class="font-bold text-slate-200">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
-                    <p>Ortsstr. 42, 07426 Allendorf</p>
+                    <p class="font-bold text-slate-200">L&P Kapitalverwaltungs GmbH</p>
+                    <p>Grosse Bleichen 34, 20354 Hamburg</p>
                     <p class="text-slate-400">Deutschland</p>
                     <div class="pt-2 space-x-2">
                         <a href="{{ route('impressum') }}" class="inline-block text-cyan-400 font-bold hover:underline">Impressum &rarr;</a>
@@ -199,7 +199,7 @@
                 </div>
             </div>
             <div class="border-t border-slate-900 pt-6 text-center text-slate-400 text-[11px] flex flex-col md:flex-row justify-between items-center">
-                <p>&copy; 2026 {{ config('app.name', 'ZinsVergleich24') }}. Alle Rechte vorbehalten. Inhaber: Oskar Ehrenfried Heinrich.</p>
+                <p>&copy; 2026 {{ config('app.name', 'ZinsVergleich24') }}. Alle Rechte vorbehalten. L&P Kapitalverwaltungs GmbH.</p>
                 <div class="space-x-4">
                     <a href="{{ route('kontakt') }}" class="hover:text-white">Kontakt</a>
                     <a href="{{ route('impressum') }}" class="hover:text-white">Impressum</a>

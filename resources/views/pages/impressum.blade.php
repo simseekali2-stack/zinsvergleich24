@@ -29,9 +29,9 @@
                     Anbieter der Website
                 </h2>
                 <div class="space-y-1 text-base">
-                    <p class="font-black text-slate-900 text-xl">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
-                    <p class="text-slate-700">Ortsstr. 42</p>
-                    <p class="text-slate-700">07426 Allendorf</p>
+                    <p class="font-black text-slate-900 text-xl">L&P Kapitalverwaltungs GmbH</p>
+                    <p class="text-slate-700">Grosse Bleichen 34</p>
+                    <p class="text-slate-700">20354 Hamburg</p>
                     <p class="text-slate-700 font-semibold">Deutschland</p>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-slate-200">
                 <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
                     <h3 class="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">Vertreten durch</h3>
-                    <p class="text-base font-bold text-slate-900">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
+                    <p class="text-base font-bold text-slate-900">L&P Kapitalverwaltungs GmbH</p>
                 </div>
 
                 <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
@@ -53,9 +53,9 @@
             <!-- Content Responsibility -->
             <div class="p-6 bg-slate-900 text-white rounded-xl border border-slate-800 space-y-2">
                 <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
-                <p class="text-base font-bold text-white">Oskar Ehrenfried Heinrich, Sebastian Hartrott Geschäftsführer</p>
-                <p class="text-sm text-slate-300">Ortsstr. 42</p>
-                <p class="text-sm text-slate-300">07426 Allendorf, Deutschland</p>
+                <p class="text-base font-bold text-white">L&P Kapitalverwaltungs GmbH</p>
+                <p class="text-sm text-slate-300">Grosse Bleichen 34</p>
+                <p class="text-sm text-slate-300">20354 Hamburg, Deutschland</p>
             </div>
 
             <!-- Legal Disclaimers -->

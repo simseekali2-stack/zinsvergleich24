@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Datenschutzerklärung - FestgeldFinder24')
-@section('meta_description', 'Datenschutzerklärung der FestgeldFinder24 Betreiberin L&P Kapitalverwaltungs GmbH gemäß DSGVO.')
+@section('title', 'Datenschutzerklärung - ZinsVergleich24')
+@section('meta_description', 'Datenschutzerklärung der ZinsVergleich24 Betreiberin L&P Kapitalverwaltungs GmbH gemäß DSGVO.')
 
 @section('content')
 
@@ -18,14 +18,14 @@
             
             <h2 class="text-base font-bold text-slate-900 border-b border-slate-200 pb-2">1. Datenschutz auf einen Blick</h2>
             <p>
-                Der Schutz Ihrer persönlichen Daten ist für die <strong>L&P Kapitalverwaltungs GmbH</strong> (Grosse Bleichen 34, 20354 Hamburg) von höchster Bedeutung. Diese Datenschutzerklärung informiert Sie darüber, wie wir personenbezogene Daten auf FestgeldFinder24 verarbeiten.
+                Der Schutz Ihrer persönlichen Daten ist für die <strong>L&P Kapitalverwaltungs GmbH</strong> (Grosse Bleichen 34, 20354 Hamburg) von höchster Bedeutung. Diese Datenschutzerklärung informiert Sie darüber, wie wir personenbezogene Daten auf ZinsVergleich24 verarbeiten.
             </p>
 
             <h2 class="text-base font-bold text-slate-900 border-b border-slate-200 pb-2">2. Verantwortliche Stelle</h2>
             <p>
                 L&P Kapitalverwaltungs GmbH<br>
                 Grosse Bleichen 34, 20354 Hamburg, Deutschland<br>
-                E-Mail: datenschutz@festgeldfinder24.de<br>
+                E-Mail: datenschutz@zinsvergleich24.de<br>
                 BaFin-ID: 10161369 | Bak Nr.: 161369
             </p>
 
