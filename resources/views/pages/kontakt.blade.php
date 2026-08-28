@@ -71,8 +71,8 @@
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                         </div>
                         <div>
-                            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Online Support</h3>
-                            <p class="text-xs text-slate-600 mt-1">Nutzen Sie unser schnelles Kontaktformular für direkte Anfragen.</p>
+                            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider">E-Mail</h3>
+                            <p class="text-sm font-bold text-slate-900 mt-1"><a href="mailto:info@festgeldfinger.com" class="hover:underline text-indigo-600">info@festgeldfinger.com</a></p>
                         </div>
                     </div>
 

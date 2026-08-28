@@ -54,7 +54,7 @@
                 <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
                     <h3 class="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">Kontakt</h3>
                     <p class="text-sm font-semibold text-slate-800">Telefon: <a href="tel:+49040256877" class="text-indigo-600 hover:underline">+49 040256877</a></p>
-                    <p class="text-sm font-semibold text-slate-800">E-Mail: <a href="{{ route('kontakt') }}" class="text-indigo-600 hover:underline">über Kontaktformular</a></p>
+                    <p class="text-sm font-semibold text-slate-800">E-Mail: <a href="mailto:info@festgeldfinger.com" class="text-indigo-600 hover:underline">info@festgeldfinger.com</a></p>
                     <p class="text-sm font-semibold text-slate-800">Web: <a href="{{ url('/') }}" class="text-indigo-600 hover:underline">{{ request()->getHost() }}</a></p>
                 </div>
             </div>
